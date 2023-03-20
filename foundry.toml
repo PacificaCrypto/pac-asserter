@@ -1,0 +1,13 @@
+[profile.default]
+broadcast  = 'logs'
+cache      = true
+cache_path = 'cache'
+force      = false
+libs       = ['libraries']
+out        = 'artifacts'
+src        = 'contracts'
+test       = 'tests'
+
+[doc]
+out   = 'documentation'
+title = 'documentation'
